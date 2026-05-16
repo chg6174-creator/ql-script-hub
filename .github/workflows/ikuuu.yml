@@ -25,4 +25,6 @@ jobs:
           IKUUU_EMAIL: ${{ secrets.IKUUU_EMAIL }}
           IKUUU_PASSWD: ${{ secrets.IKUUU_PASSWD }}
           SCKEY: ${{ secrets.SCKEY }}
+          RANDOM_SIGNIN: "false"
+          MAX_RANDOM_DELAY: "0"
         run: python ikuuu_checkin.py
