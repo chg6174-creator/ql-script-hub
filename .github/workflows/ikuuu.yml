@@ -27,5 +27,5 @@ jobs:
           SCKEY: ${{ secrets.SCKEY }}
           RANDOM_SIGNIN: "false"
           MAX_RANDOM_DELAY: "0"
-          BASE_URL: "https://ikuuu.win"
+          IKUUU_URL: "https://ikuuu.win"
         run: python ikuuu_checkin.py
